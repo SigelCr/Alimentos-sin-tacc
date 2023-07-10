@@ -1,0 +1,138 @@
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    &::selection {
+        color: rgb(200, 29, 29);
+        background-color: rgb(6, 255, 156);
+    }
+}
+
+body {
+    background-color: rgb(228, 206, 150) !important;
+}
+
+/*menu de navegacion*/
+.navegacion {
+    min-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-weight: bold;
+    background-color: rgb(49, 49, 44);
+    
+
+    a {
+        margin: 0 15px 0 15px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    
+    }
+    li {
+        list-style:none;
+    }
+}
+/*textos - textos-centrados - recetas*/
+.text-center {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.texto-blanco {
+    color: rgb(51, 51, 51);
+
+    h2 {
+        font-size: 30px;
+        padding: 0 10px 0 10px;
+        margin: 20px 0 20px 0;
+        color: rgb(0, 0, 0);
+    }
+
+    h3 {
+        font-size: 25px;
+        padding: 0 10px 0 10px;
+        margin: 20px 0 20px 0;
+        color: rgb(0, 0, 0);
+        font-style: italic;
+    }
+
+    p {
+        font-size: 20px;
+        padding: 5px 10px 5px 10px;
+    }
+}
+.h1 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding: 15px 0 15px 0;
+}
+
+.recetas {
+    margin: 10px 0 10px 0;
+    
+    
+    a {
+        display: flex;
+        justify-content: center;
+        text-decoration:none;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        margin: auto;
+        max-width: 300px;
+        font-family: 'Rubik Bubbles', cursive;
+    }
+}
+
+/*stronggggg*/
+strong {
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+b {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+
+}
+/*imagenes*/
+.imagen {
+    display: flex;
+    margin: auto;
+    
+    width: 700px;
+    border: 5px solid rgb(19,19,19);
+    border-radius: 100px;
+    background-image: url(../imagenes/fondo-logo.png);
+    background-size: cover;
+}
+/*
+@media (max-width: 576px) {
+    .navegacion {
+        display: none;
+    }
+}*/
+
+.cambiarTema {
+    background-color: rgb(14, 14, 14) !important;
+        div, h2, strong, h1, h3, b, a {
+            color: rgb(206, 206, 206);
+        }
+}
+
+#tema {
+    font-size: 30px;
+
+    border: transparent;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(206, 30, 30);
+    background-color: transparent;
+    height: 75px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}

@@ -1,0 +1,108 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+  *::selection {
+    color: #c81d1d;
+    background-color: #06ff9c; }
+
+body {
+  background-color: #e4ce96 !important; }
+
+/*menu de navegacion*/
+.navegacion {
+  min-width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  justify-content: space-evenly;
+  padding: 15px;
+  font-weight: bold;
+  background-color: #31312c; }
+  .navegacion a {
+    margin: 0 15px 0 15px;
+    text-decoration: none;
+    color: white; }
+  .navegacion li {
+    list-style: none; }
+
+/*textos - textos-centrados - recetas*/
+.text-center {
+  text-align: center;
+  margin: 20px 0 20px 0; }
+
+.texto-blanco {
+  color: #333333; }
+  .texto-blanco h2 {
+    font-size: 30px;
+    padding: 0 10px 0 10px;
+    margin: 20px 0 20px 0;
+    color: black; }
+  .texto-blanco h3 {
+    font-size: 25px;
+    padding: 0 10px 0 10px;
+    margin: 20px 0 20px 0;
+    color: black;
+    font-style: italic; }
+  .texto-blanco p {
+    font-size: 20px;
+    padding: 5px 10px 5px 10px; }
+
+.h1 {
+  font-size: 40px;
+  color: black;
+  padding: 15px 0 15px 0; }
+
+.recetas {
+  margin: 10px 0 10px 0; }
+  .recetas a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin: auto;
+    max-width: 300px;
+    font-family: 'Rubik Bubbles', cursive; }
+
+/*stronggggg*/
+strong {
+  color: black;
+  border-bottom: 1px solid black; }
+
+b {
+  color: black;
+  font-size: 35px; }
+
+/*imagenes*/
+.imagen {
+  display: flex;
+  margin: auto;
+  width: 700px;
+  border: 5px solid #131313;
+  border-radius: 100px;
+  background-image: url(../imagenes/fondo-logo.png);
+  background-size: cover; }
+
+/*
+@media (max-width: 576px) {
+    .navegacion {
+        display: none;
+    }
+}*/
+.cambiarTema {
+  background-color: #0e0e0e !important; }
+  .cambiarTema div, .cambiarTema h2, .cambiarTema strong, .cambiarTema h1, .cambiarTema h3, .cambiarTema b, .cambiarTema a {
+    color: #cecece; }
+
+#tema {
+  font-size: 30px;
+  border: transparent;
+  padding: 10px;
+  margin: 10px;
+  color: #ce1e1e;
+  background-color: transparent;
+  height: 75px;
+  position: fixed;
+  right: 10px;
+  top: 10px; }
